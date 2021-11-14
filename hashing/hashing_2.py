@@ -20,3 +20,5 @@ value_2 = 15
 value_2_index = mod_hash(value, len(database))
 database[value_2_index] = value_2
 print(database) # [None, None, None, None, None, 15, None, None, None, None]
+
+# TODO ajouter le temps de hashing avec timeit
