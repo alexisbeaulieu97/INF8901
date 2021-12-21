@@ -3,6 +3,7 @@
 def mod_hash(value, size):
     return value % size
 
+
 # Initialisation de la taille de la table
 table_size = 10
 
@@ -17,4 +18,4 @@ value_index = mod_hash(value, len(database))
 
 # Placer la valeur au bon endroit dans la table
 database[value_index] = value
-print(database) # [None, None, None, None, None, 5, None, None, None, None]
+print(database)  # [None, None, None, None, None, 5, None, None, None, None]
